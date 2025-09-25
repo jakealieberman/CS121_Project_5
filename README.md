@@ -26,8 +26,8 @@
     * Close the file
 * Example Output
   * this this this 
-    is is is is is is 
-    a a a a a a a a a 
-    lot lot lot lot lot lot 
-    of of of 
-    fun fun fun fun fun fun 
+  * is is is is is is 
+  * a a a a a a a a a 
+  * lot lot lot lot lot lot
+  * of of of 
+  * fun fun fun fun fun fun 
