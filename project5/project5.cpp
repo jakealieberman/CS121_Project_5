@@ -5,7 +5,7 @@
 
 // main function
 int main() {
-	std::ifstream infile("input.txt"); // open file
+	std::ifstream infile("data.csv"); // open file
 	std::string line;
 	while (std::getline(infile, line)) { // read each line
 		std::stringstream ss(line);
