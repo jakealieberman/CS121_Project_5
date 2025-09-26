@@ -11,8 +11,8 @@ int main() {
 		std::stringstream ss(line);
 		std::string str1, str2, text;
 
-		std::getline(ss, str1, ' ');
-		std::getline(ss, str2, ' ');
+		std::getline(ss, str1, ',');
+		std::getline(ss, str2, ',');
 		std::getline(ss, text);
 
 		int num1 = std::stoi(str1); // convert to integers
@@ -21,8 +21,9 @@ int main() {
 		int sum = num1 + num2; // add and print
 	    for (int i = 0; i < sum; ++i) {
 			std::cout << text << " ";
-		}
+		} // end for
 		std::cout << std::endl;
-	}
+	} // end while 
+	infile.close(); // close file
 	return 0;
 } // end main
