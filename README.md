@@ -1,4 +1,4 @@
-# CS121_Project_5
+# CS121 Project 5
 
 ## Algorithm
 * Input
